@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji-cards{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    align-items: flex-start;
+}
+
+.emoji{
+    font-size: 40px;
+    width: 130px;   
+    line-height: normal;
+    border: 1px solid #e9eef6;
+    background: linear-gradient(to bottom, #f2f6fa, white);
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    justify-content: flex-start;
+    flex-grow: 1;
+    max-width: 115px;
+    align-items: center
+    
+}
+
+.emoji span{
+    font-size: 18px;    
+}
+
+.emoji:hover{
+    color: #0065b7;
+    cursor: pointer;
+}
